@@ -209,7 +209,7 @@ ul li {
   outline: none;
 }
 
-.download, button:hover{
+.download:hover, button:hover{
   color: #F9ECD0;
   background-color: RGBA(21, 59, 13, 1.00);
 }
