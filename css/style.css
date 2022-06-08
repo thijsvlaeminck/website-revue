@@ -139,12 +139,12 @@ ul li {
   outline: none;
 }
 
-.download:hover{
+.download, button:hover{
   color: #F9ECD0;
   background-color: RGBA(21, 59, 13, 1.00);
 }
 
-.download a{
+button, .download a{
   color: #F9ECD0;
   display: block;
   padding: .7em .5em;
