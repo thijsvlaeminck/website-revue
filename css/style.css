@@ -1,14 +1,14 @@
 @font-face {
-  font-family: "Musketeer Bold";
+  font-family: "Musketeer Regular";
   font-style: normal;
-  src: url("../fonts/Musketeer Bold.ttf") format("truetype");
+  src: url("../fonts/Musketeer Regular.ttf") format("truetype");
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Musketeer Regular";
+  font-family: "Musketeer Bold";
   font-style: normal;
-  src: url("../fonts/Musketeer Regular.ttf") format("truetype");
+  src: url("../fonts/Musketeer Bold.ttf") format("truetype");
   font-display: swap;
 }
 
