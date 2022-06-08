@@ -140,12 +140,12 @@ ul li {
 }
 
 .download:hover {
-  color: #fafafa;
+  color: #F9ECD0;
   background-color: RGBA(21, 59, 13, 1.00);
 }
 
 .download a {
-  color: #fafafa;
+  color: #F9ECD0;
   display: block;
   padding: .7em .5em;
 }
@@ -232,13 +232,13 @@ form select {
   nav a {
     display: block;
     width: 90%;
-    border-bottom: 3px solid #fafafa;
-    border-left: 3px solid #fafafa;
-    border-right: 3px solid #fafafa;
+    border-bottom: 3px solid #F9ECD0;
+    border-left: 3px solid #F9ECD0;
+    border-right: 3px solid #F9ECD0;
   }
 
   li:first-child a {
-    border-top: 3px solid #fafafa;
+    border-top: 3px solid #F9ECD0;
   }
 
   .sticky {
