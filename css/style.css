@@ -197,7 +197,7 @@ ul li {
      }
 }
 
-.download, button {
+.download{
   transition: all .5s ease;
   border: 3px solid #F8F7E5;
   /*text-transform: uppercase;*/
@@ -209,12 +209,12 @@ ul li {
   outline: none;
 }
 
-.download:hover, button:hover{
+.download:hover{
   color: #F9ECD0;
   background-color: RGBA(21, 59, 13, 1.00);
 }
 
-button, .download a{
+.download a{
   color: #F9ECD0;
   display: block;
   padding: .7em .5em;
