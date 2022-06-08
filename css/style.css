@@ -20,14 +20,14 @@ a {
 }
 
 h1 {
-  font-size: 12em;
+  font-size: 6em;
   font-family: Musketeer, serif;
   color: #F9ECD0;
   animation: fadeInAnimation ease 4s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   width: 95%;
-  margin: .2em auto .6em auto;
+  margin: 1em auto .6em auto;
 }
 
 p {
