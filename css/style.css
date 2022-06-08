@@ -5,6 +5,13 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Musketeer regular";
+  font-style: normal;
+  src: url("../fonts/Musketeer Regular.ttf") format("truetype");
+  font-display: swap;
+}
+
 body {
   width: 100%;
   margin: auto;
@@ -14,7 +21,7 @@ body {
 }
 
 a {
-  font-family: Musketeer, serif;
+  font-family: Musketeer Regular, serif;
   text-decoration: none;
   color: black;
 }
@@ -27,7 +34,7 @@ h1 {
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   width: 95%;
-  margin: 1em auto .6em auto;
+  margin: .2em auto .6em auto;
 }
 
 p {
