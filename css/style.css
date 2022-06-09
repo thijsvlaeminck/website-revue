@@ -49,7 +49,8 @@ p {
   position: fixed;
   height: .1em;
   top: 0;
-  margin-left: -1em;
+  margin-left: -2em;
+  margin-bottom: -40px;
 }
 
 .wrapper {
@@ -85,7 +86,7 @@ nav a:after {
   transform: translateX(-50%);
   width: 0;
   height: 100%;
-  background: rgba(250, 250, 250, 0.2);
+  background: RGBA(150, 44, 25, 0.2);
   z-index: -1;
   -webkit-transition: width 150ms ease-in-out;
   transition: width 150ms ease-in-out;
@@ -100,8 +101,8 @@ ul li {
 }
 
 .pagina a {
-  border-bottom: 3px solid #F9ECD0;
-  background-color: rgba(250, 250, 250, 0.2);
+  border-bottom: 3px solid #962C19;
+  background-color: RGBA(150, 44, 25, 0.2);
   font-family: Musketeer Bold;
 }
 
