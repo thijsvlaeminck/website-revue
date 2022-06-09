@@ -117,6 +117,10 @@ ul li {
   margin-top: -.8em;
 }
 
+.socialbutton {
+  filter: invert(62%) sepia(10%) saturate(1289%) hue-rotate(56deg) brightness(87%) contrast(85%);
+}
+
 @keyframes fadeInAnimation {
   0% {
     opacity: 0;
