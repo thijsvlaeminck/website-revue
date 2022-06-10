@@ -25,6 +25,13 @@ body {
   padding: 0;
   text-align: center;
   font-family: Arial;
+
+  background: url("/img/planten.webp") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #528446;
 }
 
 a {
@@ -127,7 +134,6 @@ ul li {
   padding: 1em 5em 1em 5em;
   margin-bottom: 2em;
   margin-top: -.8em;
-
 }
 
 .socialbtn-wrapper {
@@ -151,7 +157,7 @@ ul li {
   }
 }
 
-.download {
+.btn {
   transition: all .5s ease;
   border: 3px solid var(--wit);
   line-height: 1;
@@ -162,18 +168,18 @@ ul li {
   color: var(--wit);
 }
 
-.download:hover {
+.btn:hover {
   background-color: var(--rood);
 }
 
-.download a {
+.btn a {
   color: var(--wit);
   display: block;
   padding: .7em .5em;
   font-family: Musketeer Bold, sans-serif;
 }
 
-.download:first-child {
+.btn:first-child {
   margin-right: .8em;
 }
 
