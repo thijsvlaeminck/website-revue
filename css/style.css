@@ -34,14 +34,19 @@ a {
 }
 
 h1 {
-  font-size: 6em;
+  display: none;
+}
+
+h2 {
+  font-size: 7em;
   font-family: Musketeer Bold, serif;
-  color: var(--wit);
-  animation: fadeInAnimation ease 4s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-  width: 95%;
-  margin: .2em auto .6em auto;
+  color: var(--rood);
+  margin-top: .3em;
+  filter: drop-shadow(4px 3px 4px black);
+}
+
+.spotify {
+  margin-top: -2.5em;
 }
 
 p {
