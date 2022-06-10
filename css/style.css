@@ -122,9 +122,17 @@ ul li {
   padding: 1em 5em 1em 5em;
   margin-bottom: 2em;
   margin-top: -.8em;
+
 }
 
-.socialbutton {
+.socialbtn-wrapper {
+  width: 160px;
+  display: flex;
+  justify-content: space-around;
+  margin: 1.2em auto;
+}
+
+.socialbtn {
   filter: invert(18%) sepia(29%) saturate(5143%) hue-rotate(350deg) brightness(103%) contrast(92%);
 }
 
@@ -166,6 +174,10 @@ ul li {
 
 .header {
   margin-bottom: 1em;
+  margin-left: -2.5em;
+  animation: fadeInAnimation ease 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 @media only screen and (max-width: 1200px) {
