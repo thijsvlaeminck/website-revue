@@ -1,3 +1,10 @@
+:root {
+  --wit: #F9ECD0;
+  --lichtgroen: #528446;
+  --donkergroen: #153B0D;
+  --rood: #962C19;
+}
+
 @font-face {
   font-family: "Musketeer Regular";
   font-style: normal;
@@ -29,7 +36,7 @@ a {
 h1 {
   font-size: 6em;
   font-family: Musketeer Bold, serif;
-  color: #F9ECD0;
+  color: var(--wit);
   animation: fadeInAnimation ease 4s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -63,7 +70,7 @@ p {
 }
 
 nav a {
-  color: #F9ECD0;
+  color: var(--wit);
   font-size: 1.2em;
   width: 20%;
   display: inline-block;
@@ -101,7 +108,7 @@ ul li {
 }
 
 .pagina a {
-  border-bottom: 3px solid #962C19;
+  border-bottom: 3px solid var(--rood);
   background-color: RGBA(150, 44, 25, 0.2);
   font-family: Musketeer Bold;
 }
@@ -119,7 +126,7 @@ ul li {
 }
 
 .socialbutton {
-  filter: invert(62%) sepia(10%) saturate(1289%) hue-rotate(56deg) brightness(87%) contrast(85%);
+  filter: invert(18%) sepia(29%) saturate(5143%) hue-rotate(350deg) brightness(103%) contrast(92%);
 }
 
 @keyframes fadeInAnimation {
@@ -134,19 +141,19 @@ ul li {
 
 .download {
   transition: all .5s ease;
-  border: 3px solid #F8F7E5;
+  border: 3px solid var(--wit);
   /*text-transform: uppercase;*/
   line-height: 1;
   font-size: 17px;
-  background-color: RGBA(82, 132, 70, 1.00);
+  background-color: var(--lichtgroen);
   /*padding: .3em 1.2em 0.3em 1.2em;*/
   width: 165px;
   outline: none;
+  color: var(--wit);
 }
 
 .download:hover {
-  color: #F9ECD0;
-  background-color: RGBA(21, 59, 13, 1.00);
+  background-color: var(--rood);
 }
 
 .download a {
@@ -174,13 +181,11 @@ ul li {
   nav a {
     display: block;
     width: 90%;
-    border-bottom: 3px solid #F9ECD0;
-    border-left: 3px solid #F9ECD0;
-    border-right: 3px solid #F9ECD0;
+    border: 3px solid #F9ECD0;
   }
 
-  li:first-child a {
-    border-top: 3px solid #F9ECD0;
+  .pagina a {
+    border: 3px solid #962C19;
   }
 
   .sticky {
