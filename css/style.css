@@ -259,6 +259,10 @@ ul li {
 }
 
 @media only screen and (max-width: 560px) {
+  h2 {
+    font-size: 6em;
+  }
+
   .content {
     width: 80%;
     padding: 1em;
@@ -277,5 +281,9 @@ ul li {
 
   .muziek-wrapper iframe:last-child {
     height: 200px
+  }
+
+  h2 {
+    font-size: 5em;
   }
 }
