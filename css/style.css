@@ -8,14 +8,13 @@
 @font-face {
   font-family: "Musketeer Regular";
   font-style: normal;
-  src: url("../fonts/Musketeer Regular.ttf") format("truetype");
+  src: url("../fonts/Musketeer-Regular.woff") format("woff");
   font-display: swap;
 }
 
 @font-face {
   font-family: "Musketeer Bold";
-  font-style: normal;
-  src: url("../fonts/Musketeer Bold.ttf") format("truetype");
+  src: url("../fonts/Musketeer-Bold.woff") format("woff");
   font-display: swap;
 }
 
