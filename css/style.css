@@ -24,7 +24,7 @@ body {
   padding: 0;
   text-align: center;
   font-family: Arial;
-  background-color: #528446;
+  background-color: var(--lichtgroen);
 
   background-size: cover;
   background-repeat: no-repeat;
