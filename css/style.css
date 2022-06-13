@@ -49,7 +49,7 @@ h1 a {
 }
 
 h2 {
-  font-size: 7em;
+  font-size: 5em;
   font-family: Musketeer Bold, serif, Bold;
   color: var(--rood);
   margin: auto;
@@ -158,6 +158,10 @@ ul li {
 }
 
 .socialbtn {
+  filter: invert(45%) sepia(24%) saturate(936%) hue-rotate(63deg) brightness(94%) contrast(78%);
+}
+
+.socialbtn:hover {
   filter: invert(18%) sepia(29%) saturate(5143%) hue-rotate(350deg) brightness(103%) contrast(92%);
 }
 
