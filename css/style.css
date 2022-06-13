@@ -48,8 +48,8 @@ h2 {
   font-size: 7em;
   font-family: Musketeer Bold, serif, Bold;
   color: var(--rood);
-  margin-top: .3em;
   filter: drop-shadow(4px 3px 4px black);
+  margin: auto;
 }
 
 p {
