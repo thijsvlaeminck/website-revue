@@ -44,6 +44,10 @@ h1 {
   display: none;
 }
 
+h1 a {
+  display: none;
+}
+
 h2 {
   font-size: 7em;
   font-family: Musketeer Bold, serif, Bold;
