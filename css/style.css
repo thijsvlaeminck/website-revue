@@ -93,7 +93,7 @@ p {
 
 .muziek-wrapper {
   margin: auto;
-  width: 65%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -111,13 +111,12 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items:flex-start;
 }
 
 .blok-wrapper p {
   text-align: left;
   width: 90%;
-  margin-right: 2em;
+  margin-right: 5em;
   margin-top: -.3em;
   text-align: justify;
 }
