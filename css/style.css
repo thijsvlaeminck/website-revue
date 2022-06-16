@@ -1,3 +1,9 @@
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 :root {
   --wit: #F9ECD0;
   --lichtgroen: #528446;
@@ -18,15 +24,17 @@
   font-display: swap;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@600&display=swap');
+
 body {
   width: 100%;
   margin: auto;
   padding: 0;
   text-align: center;
-  font-family: Arial;
+  font-family: 'Source Sans Pro', sans-serif;
   background-color: var(--lichtgroen);
   color: black;
-
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -56,8 +64,8 @@ h2 {
 }
 
 p {
-  font-size: .9em;
-  line-height: 1.7;
+  font-size: 1em;
+  line-height: 1.3;
 }
 
 .sticky {
@@ -66,7 +74,6 @@ p {
   position: fixed;
   height: .1em;
   top: 0;
-  margin-left: -2em;
   margin-bottom: -40px;
 }
 
@@ -89,9 +96,13 @@ p {
 
 .muziek-wrapper iframe {
   border-radius: 12px;
-  height: 380px;
+  height: 500px;
   border: none;
   margin-bottom: 3em;
+}
+
+.muziek-wrapper h3 {
+  text-align: left;
 }
 
 .blok-wrapper {
@@ -99,27 +110,26 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-top: 3em;
 }
 
 .blok-wrapper p {
   text-align: left;
-  width: 90%;
-  margin-right: 5em;
-  margin-top: -.3em;
-  text-align: justify;
+  width: 100%;
+  margin-right: 3em;
+  margin-top: -.7em;
 }
 
-.blok-wrapper p strong {
-  font-family: Arial;
-  font-size: 1.1em;
+.strong {
+  font-family: 'Source Serif Pro', serif;
+  ;
+  font-size: 1.3em;
 }
 
 .header-img {
-  display: block;
-  border-radius: 12px;
-  max-width: 100%;
+  width: 100%;
   height: auto;
-  margin-bottom: 1em;
+  border-radius: 12px;
 }
 
 nav a {
@@ -155,6 +165,10 @@ nav a:hover:after {
   width: 100%;
 }
 
+ul {
+  padding-inline-start: 0px;
+}
+
 ul li {
   display: inline;
 }
@@ -170,11 +184,10 @@ ul li {
   animation: fadeInAnimation ease 4s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
-  width: 80%;
-  background-color: RGBA(249, 236, 208, 0.7);
-  padding: 3em;
-  margin-bottom: 2em;
-  margin-top: -.8em;
+  width: 100%;
+  background-color: RGBA(249, 236, 208, .75);
+  padding: 3em 10em 3em;
+  margin-top: -.9em;
 }
 
 .socialbtn-wrapper {
@@ -200,6 +213,11 @@ ul li {
   100% {
     opacity: 1;
   }
+}
+
+h3 {
+  font-family: Musketeer Bold;
+  margin-top: -.7em;
 }
 
 .btn {
@@ -243,7 +261,6 @@ ul li {
 
 .bit-widget {
   margin-top: 2em;
-  margin-bottom: 2em;
 }
 
 @media only screen and (max-width: 1500px) {
@@ -261,21 +278,20 @@ ul li {
     width: 80%;
   }
 
-  .muziek-wrapper iframe {
-    width: 100%;
-    height: 420px;
-    margin-bottom: 1em;
+  .content {
+    padding: 3em 5em 3em;
   }
 }
 
-@media only screen and (max-width: 960px) {
-  .muziek-wrapper iframe:last-child {
-    height: 350px
+@media only screen and (max-width: 1000px) {
+  .content {
+    padding: 3em 10em 3em;
   }
 
   .blok-wrapper {
     flex-direction: column;
   }
+
   .muziek-wrapper {
     width: 100%;
   }
@@ -289,6 +305,12 @@ ul li {
   }
 }
 
+@media only screen and (max-width: 960px) {
+  .muziek-wrapper iframe:last-child {
+    height: 350px
+  }
+}
+
 @media only screen and (max-width: 726px) {
   body {
     background-image: url("/img/planten-mobile.webp");
@@ -297,24 +319,27 @@ ul li {
   nav a {
     display: block;
     width: 90%;
-    border: 3px solid var(--wit);
+    background-color: RGBA(150, 44, 25, .3);
+    margin-bottom: .2em;
   }
 
   .pagina a {
-    border: 3px solid var(--rood);
+    background-color: RGBA(150, 44, 25, .7);
+
+    border: 3px solid var(--wit);
   }
 
   .sticky {
-    height: 5.1em;
-    margin-left: -1.3em;
+    height: 8em;
+    margin: auto;
   }
 
   .wrapper {
-    top: 8.2em;
+    top: 12em;
   }
 
   .content {
-    width: 80%;
+    width: 100%;
     padding: 2em;
   }
 
@@ -326,11 +351,11 @@ ul li {
 
 @media only screen and (max-width: 560px) {
   h2 {
-    font-size: 6em;
+    font-size: 4em;
   }
 
   .content {
-    width: 80%;
+    width: 100%;
     padding: 1em;
   }
 
