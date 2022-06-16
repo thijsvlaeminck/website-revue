@@ -254,13 +254,8 @@ ul li {
 }
 
 .bit-widget {
-  border-radius: 12px;
   margin-top: 2em;
   margin-bottom: 2em;
-}
-
-.bit-nav-bar-container {
-  display: none;
 }
 
 @media only screen and (max-width: 1500px) {
