@@ -75,10 +75,6 @@ p {
   top: 0;
 }
 
-main {
-  overflow: auto;
-}
-
 .muziek-wrapper {
   margin: auto;
   width: 100%;
@@ -128,6 +124,7 @@ nav {
   margin-top: -2em;
   height: 20px;
   position: sticky;
+  margin-bottom: 2em;
 }
 
 nav a {
